@@ -12,10 +12,16 @@ provider:
     name: aws
     runtime: nodejs10.x
     region: ap-northeast-2
+    stage: dev
+    profile:
 
 functions:
     first:
         handler: first.hello
+        events:
+            -http:
+                path: /
+                method: GET
     second:
         handler: second.hello
         events:
