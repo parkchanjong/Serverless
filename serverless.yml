@@ -1,5 +1,5 @@
 service:
-    name: serverlesshi
+    name: chanjong
 # app and org for use with dashboard.serverless.com
 #app: your-app-name
 #org: your-org-name
@@ -19,9 +19,9 @@ functions:
     first:
         handler: first.hello
         events:
-            -http:
-                path: /
-                method: GET
+            - http:
+                  path: /
+                  method: GET
     second:
         handler: second.hello
         events:

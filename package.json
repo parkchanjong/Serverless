@@ -15,5 +15,9 @@
     "webpack": "^4.35.2"
   },
   "author": "The serverless webpack authors (https://github.com/elastic-coders/serverless-webpack)",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^2.8.1",
+    "koa-router": "^7.4.0"
+  }
 }
